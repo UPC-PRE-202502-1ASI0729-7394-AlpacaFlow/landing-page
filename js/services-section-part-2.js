@@ -1,7 +1,6 @@
 import { animate, inView } from "./lib/motion.js";
 
 inView(".meditrack-device-image", (element) => {
-  console.log("Element in view:", element);
   animate(
     element,
     { opacity: 1 },
