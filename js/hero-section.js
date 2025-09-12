@@ -1,7 +1,6 @@
 import { animate, inView } from "./lib/motion.js";
 
 inView(".hero-content-section-title", (element) => {
-  console.log("Element in view:", element);
   animate(
     element,
     { opacity: 1, x: [-100, 0] },
