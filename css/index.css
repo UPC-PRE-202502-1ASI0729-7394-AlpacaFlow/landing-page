@@ -1,6 +1,57 @@
+/* Body padding for fixed navbar - removed, using hero padding instead */
+body {
+  /* padding-top no longer needed here */
+}
+
 .navbar-brand img {
   height: 40px;
   width: auto;
+}
+
+/* Fixed navbar at top */
+#mainNavbar {
+  top: 0;
+  z-index: 1030;
+}
+
+/* Default navbar link color while over the hero */
+.navbar .nav-link.text-light {
+  color: #ffffff !important;
+}
+
+/* When page is scrolled past hero, switch navbar links to black */
+.navbar.scrolled {
+  background-color: #ffffff !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.scrolled .nav-link {
+  color: #000000 !important;
+}
+
+.navbar.scrolled .btn-outline-light {
+  color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+.navbar.scrolled .btn-outline-light:hover {
+  background-color: #000000;
+  color: #ffffff !important;
+}
+
+.navbar.scrolled .navbar-brand img {
+  /* keep logo as-is; if you need a dark version, swap src via JS */
+}
+
+/* Toggler button contrast fixes when scrolled */
+.navbar .navbar-toggler {
+  border: none;
+}
+.navbar.scrolled .navbar-toggler-icon {
+  filter: invert(0) !important;
+}
+.navbar .navbar-toggler-icon {
+  filter: invert(1); /* white icon over hero */
 }
 
 .navbar-toggler {
@@ -14,11 +65,12 @@
 }
 
 div.hero-section {
-  min-height: 90vh;
+  min-height: 100vh;
   background-image: url("../assets/hero-image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin-top: 0;
 }
 
 .arrow-right-icon {

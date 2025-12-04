@@ -146,6 +146,38 @@ document.addEventListener("DOMContentLoaded", function () {
       "footer-copyright-part-1":
         "© 2025 AlpacaFlow. All rights reserved. Made with",
       "footer-copyright-part-2": "to improve lives.",
+
+      "team-tag": "Our Team",
+      "team-header-title": "Meet the RurasqaySoft team",
+      "team-description":
+        "Passionate professionals committed to improving geriatric care through technology.",
+      "team-member-role": "Software Engineering Student",
+      "team-member-1-bio":
+        "I consider myself adaptable, a team player, and a quick learner. I have technical knowledge of JavaScript technologies.",
+      "team-member-2-bio":
+        "I consider myself adaptable, a team player, and a quick learner. I have a problem-solving mindset and a basic understanding of software functionalities.",
+      "team-member-3-bio":
+        "Knowledge of web and CLI development. Proficient in JavaScript, C++, and Python, with some experience in Go. Familiar with front-end technologies such as HTML, CSS, and TypeScript.",
+      "team-member-4-bio":
+        "I have developed projects in C++, Python, HTML, and CSS. I am currently learning to develop web applications using the Angular and Vue frameworks.",
+      "team-member-5-bio":
+        "Knowledge of front-end and back-end web development. Proficient in JavaScript, Python, and C++. Familiar with frameworks such as React and Node.js.",
+      "subscribe-title": "Start Caring for Your Loved Ones Today",
+
+      "subscribe-description":
+        "Join hundreds of families who already trust MediTrack for the ongoing care of their seniors.",
+
+      "subscribe-start-free": "Start for Free",
+
+      "subscribe-see-plan": "See Premium Plans",
+
+      "subscribe-note": "* No credit card required to get started",
+
+      "modal-video": "Watch Video",
+      
+      "footer-terms-conditions": "Terms and Conditions",
+
+      "nav-start-button": "Start Now"
     },
     es: {
       // Navbar
@@ -289,6 +321,35 @@ document.addEventListener("DOMContentLoaded", function () {
       "footer-copyright-part-1":
         "© 2025 AlpacaFlow. Todos los derechos reservados. Hecho con",
       "footer-copyright-part-2": "para mejorar vidas.",
+
+      "team-tag": "Nuestro Equipo",
+      "team-header-title": "Conoce al equipo de RurasqaySoft",
+      "team-description":
+        "Profesionales apasionados comprometidos con mejorar el cuidado geriátrico a través de la tecnología.",
+      "team-member-role": "Estudiante de Ingeniería de Software",
+      "team-member-1-bio":
+        "Me considero una persona adaptable al entorno, sé trabajar en equipo y aprendo rápido. Cuento con conocimientos técnicos en tecnologías de JavaScript.",
+      "team-member-2-bio":
+        "Me considero una persona adaptable al entorno, sé trabajar en equipo y aprendo rápido. Mentalidad para resolver problemas. Conocimiento básico de las funcionalidades de software.",
+      "team-member-3-bio":
+        "Conocimientos en desarrollo web y CLI. Manejo de JavaScript, C++ y Python, con algo de experiencia en Go. Familiarizado con tecnologías front-end como HTML, CSS y TypeScript.",
+      "team-member-4-bio":
+        "He desarrollado proyectos en C++, Python, HTML y CSS. Actualmente estoy aprendiendo a realizar aplicaciones web usando el framework Angular y Vue.",
+      "team-member-5-bio":
+        "Conocimientos en desarrollo web front-end y back-end. Manejo de JavaScript, Python y C++. Familiarizado con frameworks como React y Node.js.",
+      "subscribe-title": "Comienza a Cuidar de tus seres queridos hoy",
+      "subscribe-description":
+        "Únete a cientos de familias que ya confían en MediTrack para el cuidado continuo de sus adultos mayores.",
+
+      "subscribe-start-free": "Empezar Gratis",
+      "subscribe-see-plan": "Ver Planes Premium",
+      "subscribe-note": "* No se requiere tarjeta de crédito para empezar",
+      "modal-video": "Ver Video",
+
+      "footer-terms-conditions": "Términos y Condiciones",
+
+      "nav-start-button": "Comenzar Ahora",
+
     },
   };
 
